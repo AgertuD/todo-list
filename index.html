@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Today's Tasks</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
-    <h1>Today</h1>
-    <h3>Design</h3>
-    <div class="design">
-        <input type="checkbox"> <p>Create icons for a dashboard</p>
-    </div>
-    <div>
-        <input type="checkbox"> <p>Prepare a design presentation</p>
-    </div>
-    <h3>Personal</h3>
-    <div class="personal">
-        <input type="checkbox"> <p>Stretch for 15 minutes</p>
-    </div>
-    <div>
-        <input type="checkbox"> <p>Plan your meal</p>
-    </div>
-    <div>
-        <input type="checkbox"> <p>Review daily goals before sleeping. Add some new if time permits</p>
-    </div>
-    <h3>House</h3>
-    <div class="house">
-        <input type="checkbox"> <p>Water indoor plants</p>
-    </div>
-    <div>
-        <input type="text" placeholder="Write a task...">
-        <button>Add</button>
-    </div>
-</section>
+        <h1>📝 Today</h1>
+
+        <h3>🎨 Design</h3>
+        <div class="task">
+            <input type="checkbox" id="task1">
+            <label for="task1">Create icons for a dashboard</label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="task2">
+            <label for="task2">Prepare a design presentation</label>
+        </div>
+
+        <h3>💪 Personal</h3>
+        <div class="task">
+            <input type="checkbox" id="task3">
+            <label for="task3">Stretch for 15 minutes</label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="task4">
+            <label for="task4">Plan your meal</label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="task5">
+            <label for="task5">Review daily goals before sleeping. Add some new if time permits</label>
+        </div>
+
+        <h3>🏠 House</h3>
+        <div class="task">
+            <input type="checkbox" id="task6">
+            <label for="task6">Water indoor plants</label>
+        </div>
+
+        <div class="new-task">
+            <input type="text" placeholder="Write a task...">
+            <button>Add</button>
+        </div>
+    </section>
 </body>
 </html>
